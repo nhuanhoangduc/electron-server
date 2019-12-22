@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@backend/database": "./database",
+    "@backend/graphql": "./graphql",
+    "apollo-server": "^2.9.14",
+    "bluebird": "^3.7.2",
+    "dataloader": "^2.0.0",
+    "graph": "file:graphql",
+    "graphql": "^14.5.8",
+    "graphql-type-json": "^0.3.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.2"
+  }
+}
